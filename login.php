@@ -3,7 +3,7 @@ session_start();
 if (isset($_SESSION['user_id'])) {
     header('Location: main.php');
 }
-if (isset($_POST['btn_login'])) {
+if (isset($_POST['btn_login'])) {git
     login();
 }
 function login() {
@@ -11,7 +11,7 @@ function login() {
     $passwd = $_POST['passwd'];
 
     if ($user_id == "" || $passwd == "") {
-        alert("输入账号/密码");
+        alert("qing输入账号/密码");
         return;
     }
 
