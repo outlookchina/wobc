@@ -11,7 +11,7 @@ function login() {
     $passwd = $_POST['passwd'];
 
     if ($user_id == "" || $passwd == "") {
-        alert("请输入账号/密码");
+        alert("输入账号/密码");
         return;
     }
 
